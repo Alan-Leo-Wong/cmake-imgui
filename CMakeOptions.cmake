@@ -30,18 +30,18 @@ set(IMGUI_BACKEND_PLATFORM "WIN32" CACHE STRING "")
 include(CMakeDependentOption)
 
 cmake_dependent_option(IMGUI_BACKEND_DX9
-  "Set to ON to include DX9 backend files." OFF
+  "Set to ON to include DX9 backend files." ON
   "IMGUI_WITH_BACKEND" ON
 )
 cmake_dependent_option(IMGUI_BACKEND_DX10
-  "Set to ON to include DX10 backend files." OFF
+  "Set to ON to include DX10 backend files." ON
   "IMGUI_WITH_BACKEND" ON
 )
 cmake_dependent_option(IMGUI_BACKEND_DX11
-  "Set to ON to include DX11 backend files." OFF
+  "Set to ON to include DX11 backend files." ON
   "IMGUI_WITH_BACKEND" ON
 )
 cmake_dependent_option(IMGUI_BACKEND_DX12
-  "Set to ON to include DX12 backend files." OFF
+  "Set to ON to include DX12 backend files." ON
   "IMGUI_WITH_BACKEND" ON
 )
